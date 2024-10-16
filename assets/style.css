@@ -1,0 +1,165 @@
+/* bg-colors  */
+.bg-color-blue{
+    background-color: #4e73df;
+}
+.bg-color-greenMix{
+    background-color: #36b9cc;
+}
+
+
+/* text-colors */
+.color-blue{
+    color: #4e73df;
+}
+.color-green{
+    color: #1cc88a;
+}
+.color-greenMix{
+    color: #36b9cc;
+}
+.color-yellow{
+    color: #f6c23e;
+}
+.color-light-blue{
+    color: #ffffff66;
+}
+.color-grey{
+    color:#b7b9cc
+}
+.color-grey1{
+    color:#858796
+}
+
+
+/* border-colors  */
+.border-color{
+    border-color: #ffffff66 !important;
+}
+.border-color-green{
+    border-left:4px solid #1cc88a !important;
+}
+.border-color-greenMix{
+    border-left:4px solid #36b9cc !important;
+}
+.border-color-yellow{
+    border-left: 4px solid #f6c23e !important;
+}
+
+
+/* font-sizes  */
+.fs-14{
+    font-size: 14px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-10{
+    font-size: 10.4px;
+}
+.sidebar-width{
+    width: 224px;
+}
+.sidebar-width-mobile{
+    width: 104px;
+}
+.sidebar .nav-link-arrow::after {
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 900;
+    font-size: 14px;
+    content: '\f107';
+    margin-left: auto;
+    font-family: 'Font Awesome 5 Free';
+}
+.sidebar .nav-link.downarrow::after {
+    transform: rotate(-90deg);
+}
+.sidebar-togglebtn{
+    width: 40px;
+    height: 40px;
+    background-color:#ffffff66;
+    border: none;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    color: #ffffff;
+}
+.sidebar-togglebtn::after{
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 900;
+    font-size: 14px;
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';   
+}
+.content-container{
+    width: calc(100% - 224px) !important;
+}
+.content-container-mobile{
+    width: calc(100% - 104px) !important;
+}
+
+
+/* header  */
+.header-search-form{
+    width: 100%;
+    max-width: 400px;
+}
+.header-search-btn{
+    color: #fff;
+    background-color: #4e73df;
+}
+.header-search-btn:hover{
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+.header-dropdown .dropdown-toggle::after {
+    display: none;
+}
+.generate-btn:hover{
+    background-color: #4e73df;
+}
+.border-left-primary {
+    border-left: 4px solid #4e73df !important;
+}
+
+.dropstart .line-chart-menu.dropdown-toggle::before{
+    display: none;
+}
+
+.pie-chart .apexcharts-legend {
+    top:unset !important;
+    bottom: 0px !important;
+}
+.pie-chart{
+    height: 384px;
+}
+@media screen and (max-width:991px) {
+    .content-container{
+        width: 100% !important;
+    }
+    .content-container-mobile{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .header-search-form{
+        width: 80%;
+        margin: auto;
+        max-width: 300px;
+    }
+    .show-search-bar{
+        position: absolute;
+        z-index: 99;
+        background-color: #ffffff;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 15px ;
+        border-radius: 5px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    .pie-chart{
+        height: 300px;
+    }
+ 
+}
